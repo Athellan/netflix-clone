@@ -13,6 +13,7 @@ function App() {
       <Row
         title="Programmes originaux Netflix"
         fetchUrl={requests.fetchNetflixOriginals}
+        isPoster={true}
       />
       <Row title="Tendances actuelles" fetchUrl={requests.fetchTrending} />
       <Row title="Les mieux notés" fetchUrl={requests.fetchTopRated} />
